@@ -11,15 +11,15 @@ speech_content =
 {
 	[1] =
 	{
-		texture = "23 Zombie Knight",
-		display_name = "Black Knight",
-		content = "Halt! You shall not enter The Master's chamber!",
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Мишутка! Я вижу, ты очень сильный малый! Помоги-ка бабуле перетащить эту громадину.",
 		choices =
 		{
 			[1] =
 			{
-				text = "Step aside, knight! I have no quarrel with you.",
-				next = 2
+				text = "Хорошо, бабушка Лиса.",
+				next = nil
 			},
 		},
 		next = nil
@@ -28,338 +28,471 @@ speech_content =
 
 	[2] =
 	{
-		texture = "23 Zombie Knight",
-		display_name = "Black Knight",
-		content = "If you come to kill The Master, you shall have to come through me first!",
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "Белка-задира! Забросила мою морковку на домик. Помоги достать, а то я высоты боюсь...А?",
 		choices =
 		{
 			[1] =
 			{
-				text = "As you wish!",
+				text = "Хорошо, Зайчик, я помогу тебе.",
 				next = nil
 			},
-			[2] =
-			{
-				text = "As you wish!",
-				next = nil
-			},
+
 		},
 		next = nil
 	},
 	[3] =
 	{
-		texture = "06 Knight",
-		display_name = "White Knight",
-		content = "You left me no choice...",
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Бычок из соседней деревни пригласил нас отпраздновать Новый Год. И мы решили, хотим его поздравить, исполнив музыкальную композицию.",
 		choices =
 		{
 			[1] =
 			{
-				text = "[Search the body.]",
+				text = "Ради этого я даже выйду из зимней спячки на Новый Год!",
 				next = 4
 			},
 		},
-		next = nil
 	},
 	[4] = 
 	{
-		texture = "06 Knight",
-		display_name = "White Knight",
-		content = "[You search the Black Knight's body and find a key.]",
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Мне нравится твой настрой! Перед отправлением к господину Быку у нас будет репетиция, где каждый исполнит свою партию. У тебя соло!",
 		next = nil
+		choices =
+		{
+			[1] =
+			{
+				text = "Ради этого я даже выйду из зимней спячки на Новый Год!",
+				next = nil
+			},
+		},
+		next = nil	
 	},
 	[5] = 
 	{
-		texture = "23 Zombie Knight",
-		display_name = "Black Knight",
-		content = "Argh! Master!.. I have... failed you...",
-		next = 3
+		texture = "Bear",
+		display_name = "Миша",
+		content = "О нет! Я все проспал! Все уже ушли! И репетиция прошла без меня!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Надо скорее найти друзей!",
+				next = nil
+			},
+		},
+		next = nil	
 	},
 	[6] = 
 	{
-		texture = "21 Zombie Mage",
-		display_name = "Dark Wizard",
-		content = "Turn back now or face your doom, knight.",
-		next = nil
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "*дрожит от страха у норы*",
+		choices =
+		{
+			[1] =
+			{
+				text = "Зайчик, что случилось?",
+				next = 7
+			},
+		},
 	},
 	[7] = 
 	{
-		texture = "21 Zombie Mage",
-		display_name = "Dark Wizard",
-		content = "This is your last warning.",
-		next = nil
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "Я шел в свой погребок. Но там какой-то скрежет, а еще свет красный. Страшно...",
+		choices =
+		{
+			[1] =
+			{
+				text = "Я посмотрю, что там такое.",
+				next = nil
+			},
+		},
 	},
 	[8] = 
 	{
-		texture = "06 Knight",
-		display_name = "White Knight",
-		content = "Dark Wizard! I come to bring justice to you for all the atrocities you've commited!",
-		next = 9
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "Ну что там, Мишка?",
+		choices =
+		{
+			[1] =
+			{
+				text = "Ничего страшного, Зайчик. Это всего лишь игрушечный робот.",
+				next = 9
+			},
+		},
 	},
 	[9] = 
 	{
-		texture = "21 Zombie Mage",
-		display_name = "Dark Wizard",
-		content = "All you'll find here is death, knight.",
-		next = nil
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "Какой интересный! Подарю, пожалуй его своему младшему племяннику! Только выключу красные глаза...",
+		choices =
+		{
+			[1] =
+			{
+				text = "Я пропустил репетицию. Подскажи, где мне петь, пожалуйста.",
+				next = 10
+			},
+		},
 	},
 	[10] = 
 	{
-		texture = "21 Zombie Mage",
-		display_name = "Dark Wizard",
-		content = "How is this possible?! I... fall!..",
-		next = nil
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "Конечно! Я играю на барабанах, но чем-то смогу тебе помочь. Давай порепетируем вдвоем! ",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо",
+				next = nil
+			},
+		},
 	},
 	[11] = 
 	{
-		texture = "10 Mage",
-		display_name = "King's Wizard",
-		content = "My liege! The Queen has been captured by The Dark Wizard! You must save her!",
-		next = nil
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "Отлично! Молодец! Теперь беги к Дядюшке Филину, он покажет, где вступает бас!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо",
+				next = nil
+			},
+		},
 	},
 	[12] = 
 	{
-		texture = "21 Zombie Mage",
-		display_name = "The Dark Wizard",
-		content = "Prepare to meet your end, king!",
-		next = nil
+		texture = "Hear",
+		display_name = "Зайчик",
+		content = "Не переживай! Попробуй еще раз!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо",
+				next = nil
+			},
+		},
 	},
 	[13] = 
 	{
-		texture = "07 Queen",
-		display_name = "The Queen",
-		content = "Took you long enough to come! I was about to finish that mage off myself.",
-		next = nil
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Миша! Ты все-таки проснулся! А то мы уже решили тебя не будить, мало ли что. Поможешь мне?",
+		choices =
+		{
+			[1] =
+			{
+				text = "Да. А что случилось?",
+				next = 14
+			},
+		},
 	},
 	[14] =
 	{
-		texture = "19 Zombie Archer",
-		display_name = "Merchant",
-		content = "Hey, kid, see the door over there? I have a key that opens it. Bring me three coins, and it's yours.",
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Недавно я прогуливался с товарищем. Началась метель. Мой друг вернулся после этого без хвоста. А я уже все перья намочил, чтобы найти его.",
 		choices =
 		{
 			[1] =
 			{
-				text = "Here you go.",
-				next = 17
-			},
-			[2] =
-			{
-				text = "I'll pass.",
-				next = 15
+				text = "Я поищу.",
+				next = nil
 			},
 		},
-		next = nil
 	},
 	[15] =
 	{
-		texture = "07 Queen",
-		display_name = "Hero",
-		content = "I'll pass.",
-		next = 16
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Какой же ты молодец! Обрадую друга под Новый Год. Раз уж ты тут, давай тогда порепетируем!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Давайте.",
+				next = nil
+			},
+		},
 	},
 	[16] =
 	{
-		texture = "19 Zombie Archer",
-		display_name = "Merchant",
-		content = "Oh, no, *without* the key, you shall *not* pass! Haha!",
-		next = nil
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Отлично! Теперь иди к Лисе, она тебе покажет партию пиано!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо",
+				next = nil
+			},
+		},
 	},
 	[17] =
 	{
-		texture = "07 Queen",
-		display_name = "Hero",
-		content = "Here you go.",
-		next = nil
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Не переживай! Попробуй еще раз!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо",
+				next = nil
+			},
+		},
 	},
 	[18] =
 	{
-		texture = "19 Zombie Archer",
-		display_name = "Merchant",
-		content = "Hey! Are you trying to scam me! Get back when you have the coin!",
-		next = nil
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Мишутка! Я так рада тебя видеть! Не поможешь снова Бабушке Лисе?",
+		choices =
+		{
+			[1] =
+			{
+				text = "Да, хорошо.",
+				next = 19
+			},
+		},
 	},
 	[19] =
 	{
-		texture = "19 Zombie Archer",
-		display_name = "Merchant",
-		content = "One... Two... That's three coins alright! Nice doing business with you, kid! Here's the key.",
-		next = nil
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Видишь, вооон там на ветке гнездо, а в нем кусочек сыра? Достань его для меня. Пожалуйста!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Но ведь это сыр Вороны!",
+				next = 20
+			},
+		},
 	},
 	[20] =
 	{
-		texture = "19 Zombie Archer",
-		display_name = "Merchant",
-		content = "You again? Scraped the three coins yet?",
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Видишь, вооон там на ветке гнездо, а в нем кусочек сыра? Достань его для меня. Пожалуйста!",
 		choices =
 		{
 			[1] =
 			{
-				text = "Here you go.",
-				next = 17
-			},
-			[2] =
-			{
-				text = "I'm still working on it.",
+				text = "Но ведь это сыр Вороны!",
 				next = 21
 			},
 		},
-		next = nil
 	},
 	[21] =
 	{
-		texture = "07 Queen",
-		display_name = "Hero",
-		content = "I'm still working on it.",
-		next = 22
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Не переживай. Она давным-давно обещала мне этот кусочек. Но вот внезапно куда-то улетела. А думала подарить его Быку на Новый Год.",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо, бабушка Лиса.",
+				next = 22
+			},
+		},
 	},
 	[22] =
 	{
-		texture = "19 Zombie Archer",
-		display_name = "Merchant",
-		content = "Well collect them faster, I have another customer interested in the key.",
-		next = nil
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Ух! Как вкусно пахнет сыр! Ммм...",
+		choices =
+		{
+			[1] =
+			{
+				text = "Но ведь это подарок Бычку!",
+				next = 23
+			},
+		},
 	},
 	[23] =
 	{
-		texture = "09 Royal",
-		display_name = "Apprentice",
-		content = "Whew... Climbing that mountain was no simple task.",
-		next = 24
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Ну да, ну да, Конечно. Кстати, а тебя ведь на репетиции-то не было? Ну-ка давай я тебе покажу лучше, что делать! ",
+		choices =
+		{
+			[1] =
+			{
+				text = "Ладно",
+				next = nil
+			},
+		},
 	},
 	[24] =
 	{
-		texture = "09 Royal",
-		display_name = "Apprentice",
-		content = "Now I have to find Grandalf the Master Wizard.",
-		next = 25
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Отлично! Молодец! Теперь беги к Белке, она тебе покажет партию бубенцов!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо",
+				next = nil
+			},
+		},
 	},
 	[25] =
 	{
-		texture = "09 Royal",
-		display_name = "Apprentice",
-		content = "What's with wizards and living in far away remote places?..",
-		next = nil
+		texture = "Fox",
+		display_name = "Бабушка Лиса",
+		content = "Не переживай! Попробуй еще раз!",
+		choices =
+		{
+			[1] =
+			{
+				text = "Хорошо",
+				next = nil
+			},
+		},
 	},
 	[26] =
 	{
-		texture = "09 Royal",
-		display_name = "Apprentice",
-		content = "Sheesh... this wizard really doesn't want to be bothered. He placed spike traps all over the place!",
-		next = nil
+		texture = "Squirrel",
+		display_name = "Белочка",
+		content = "Я так устала! То танцы, то песни, то орехи! Спину ломит! Миша, помоги собрать все золотые скорлупки.Они на деревьях остались.",
+		choices =
+		{
+			[1] =
+			{
+				text = "Давай помогу.",
+				next = nil
+			},
+		},
 	},
 	[27] =
 	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "Who goes there?! Identify yourself!",
+		texture = "Squirrel",
+		display_name = "Белочка",
+		content = "Ой спасибо! А то я боялась, что не успею закончить работу к Новому году. Ядра то уже забрали, а скорлупу нет! А ты чего не спешишь к Быку?",
 		choices =
 		{
 			[1] =
 			{
-				text = "I'm a student from The Collage of Wizards, I come seeking knowledge!",
+				text = "Мне сказали, ты знаешь партию бубенцов.",
 				next = 28
 			},
-			[2] =
-			{
-				text = "I'm a pizza delivery girl, I have your order of three pepperoni pizzas!",
-				next = 29
-			},
 		},
-		next = nil
 	},
 	[28] =
 	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "You come for knowledge, huh? Well then... Behind me is a magical door guarding a passage to my library, to open it you must pass The Trial of the Key.",
+		texture = "Squirrel",
+		display_name = "Белочка",
+		content = "Точно! Это я могу. Давай покажу, где тебе вступать.",
 		choices =
 		{
 			[1] =
 			{
-				text = "What's The Trial of the Key?",
-				next = 31
+				text = "Показывай",
+				next = nil
 			},
 		},
-		next = nil
 	},
 	[29] =
 	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "Lies! I did not order any pizzas! State your real business here!",
+		texture = "Squirrel",
+		display_name = "Белочка",
+		content = "Молодец! Сколько времени! Надо скорее уже бежать к Бычку!",
 		choices =
 		{
 			[1] =
 			{
-				text = "Ok, ok! I'm a student from The Collage of Wizards, I come seeking knowledge!",
-				next = 28
-			},
-			[2] =
-			{
-				text = "You didn't order pizzas? Oh man, not again! I must've mixed up the address!",
-				next = 30
+				text = "Бежим!",
+				next = nil
 			},
 		},
-		next = nil
 	},
 	[30] =
 	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "Listen here, girl, stop playing games with me and tell me why are you here!",
+		texture = "Squirrel",
+		display_name = "Белочка",
+		content = "Не переживай! Попробуй еще раз!",
 		choices =
 		{
 			[1] =
 			{
-				text = "Ok, ok! I'm a student from The Collage of Wizards, I come seeking knowledge!",
-				next = 28
+				text = "Хорошо",
+				next = nil
 			},
 		},
-		next = nil
 	},
-	[31] =
-	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "Actually I was going to the library myself, but forgot the key on the other side of the mountain peak. I'm too lazy to go back and get it.",
+	[31] =	
+		{
+		texture = "Squirrel",
+		display_name = "Белочка",
+		content = "Тут еще не все. Поищи еще, пожалуйста.",
 		choices =
 		{
 			[1] =
 			{
-				text = "So the trial is... to simply get the key and bring it here?",
-				next = 32
+				text = "Хорошо",
+				next = nil
 			},
 		},
-		next = nil
 	},
 	[32] =
 	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "Yeah, so go and fetch it. I'll let you inside too. But hurry up before I change my mind, you'll find the key by just going over to the eastern side of the peak. Now go!",
-		next = nil
-	},
-	[33] =
-	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "Did you get the key yet?",
+		texture = "Owl",
+		display_name = "Филин",
+		content = "Молодец, что пришел. Мы скоро начинаем. Если забыл, где петь, посмотри подсказку.",
 		choices =
 		{
 			[1] =
 			{
-				text = "No, not yet.",
-				next = 34
+				text = "Отлично, я готов.",
+				next = nil
+			},
+		},
+	},
+	[33] =
+	{
+		texture = "Bull",
+		display_name = "Бычок",
+		content = "Ну ты, конечно, и петуха дал, Мишутка! Но не переживай! Ведь уже Новый год! Давай праздновать!",
+		choices =
+		{
+			[1] =
+			{
+				text = "С Новым Годом!",
+				next = nil
 			},
 		},
 		next = nil
 	},
 	[34] =
 	{
-		texture = "10 Mage",
-		display_name = "Grandalf the Master Wizard",
-		content = "So what are you waiting for? Go get it!",
+		texture = "Bull",
+		display_name = "Бычок",
+		content = "Мишутка! Спасибо, удружил с подарком! А я ведь даже не ожидал, что ты выйдешь из спячки!",
+		choices =
+		{
+			[1] =
+			{
+				text = "И тебя С Новым Годом!",
+				next = nil
+			},
+		},
 		next = nil
 	},
 	[35] =
