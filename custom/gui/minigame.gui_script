@@ -1,0 +1,18 @@
+require "pck.content.collection_proxy_content"
+
+function init(self)
+	self.swipe = {[2]="красный", [3]="зеленый", [4]="синий"} 
+	
+end
+
+function update(self, dt)
+
+end
+
+function on_message(self, message_id, message, sender)
+
+end
+
+function on_input(self, action_id, action)
+
+end

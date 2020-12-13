@@ -1,0 +1,11 @@
+images {
+  image: "/custom/assets/BackGround/SummerVillage.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/custom/assets/BackGround/WinterVillage.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+margin: 0
+extrude_borders: 2
+inner_padding: 0

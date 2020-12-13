@@ -6,5 +6,7 @@ collection_proxies =
 	[3] = "#lvl2",
 	[4] = "#lvl3",
 	[5] = "#lvl4",
-	[6] = "#lvl5"
+	[6] = "#lvl5",
+	[7] = "#lvl6",
+	[8] = "#lvl7"
 }

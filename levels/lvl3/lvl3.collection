@@ -28,34 +28,6 @@ instances {
   }
 }
 instances {
-  id: "action_open_door"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 2915.6628
-    y: 1853.5795
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "door"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "action_say_speech"
   prototype: "/pck/building_blocks/gameobjects/actions/action_say_speech.go"
   position {
@@ -104,359 +76,6 @@ instances {
       value: "5.0"
       type: PROPERTY_TYPE_NUMBER
     }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_say_speech2"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 6222.2554
-    y: 1643.8615
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "6.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_say_speech3"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 6936.9604
-    y: 1938.2098
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "7.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_say_speech4"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 8603.996
-    y: 1418.5422
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "8.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_say_speech5"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 10956.649
-    y: 1464.5524
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "10.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_toggle_trigger"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_toggle_trigger.go"
-  position {
-    x: 10984.255
-    y: 1249.8383
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "trigger"
-      value: "win"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 1660.6315
-    y: 812.0787
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger1"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 3133.982
-    y: 1019.6008
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_open_door"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "destroy_after_trigger"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger2"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 5148.962
-    y: 1078.5472
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech2"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger3"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 6927.301
-    y: 1055.9663
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech3"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger4"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 8689.882
-    y: 894.0263
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech4"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "background"
-  prototype: "/pck/building_blocks/gameobjects/backgrounds/background.go"
-  position {
-    x: 640.0
-    y: 2299.5674
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "type"
-      value: "evening"
-      type: PROPERTY_TYPE_HASH
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "black_knight"
-  prototype: "/levels/lvl3/black_knight.go"
-  position {
-    x: 2497.3967
-    y: 931.0219
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "black_wizard"
-  prototype: "/levels/lvl3/black_wizard.go"
-  position {
-    x: 11394.932
-    y: 839.6143
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
   }
   scale3 {
     x: 1.0
@@ -523,166 +142,6 @@ instances {
   }
 }
 instances {
-  id: "coin"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: -6.6177297
-    y: 770.1836
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin1"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 429.96252
-    y: 769.0232
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin2"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 910.1795
-    y: 780.2327
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin3"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 1275.1444
-    y: 779.6191
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin4"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 4151.4
-    y: 1111.2008
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin5"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 4912.418
-    y: 1116.4133
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin6"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 5759.4414
-    y: 1074.7137
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin7"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 6695.077
-    y: 1105.9884
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "condition_character_died"
   prototype: "/pck/building_blocks/gameobjects/conditions/condition_character_died.go"
   position {
@@ -706,72 +165,6 @@ instances {
     properties {
       id: "action_url"
       value: "action_say_speech1"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "condition_character_died1"
-  prototype: "/pck/building_blocks/gameobjects/conditions/condition_character_died.go"
-  position {
-    x: 10984.255
-    y: 1249.8383
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "target_url"
-      value: "black_wizard"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "action_url"
-      value: "action_say_speech5"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "condition_character_died2"
-  prototype: "/pck/building_blocks/gameobjects/conditions/condition_character_died.go"
-  position {
-    x: 10984.255
-    y: 1249.8383
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "target_url"
-      value: "black_wizard"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "action_url"
-      value: "action_toggle_trigger"
       type: PROPERTY_TYPE_URL
     }
   }
@@ -821,54 +214,6 @@ instances {
     x: 0.0
     y: 0.0
     z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "door"
-  prototype: "/pck/building_blocks/gameobjects/doors/door.go"
-  position {
-    x: 3357.9236
-    y: 890.2765
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "is_locked"
-      value: "true"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "hero"
-  prototype: "/levels/lvl3/lvl3_hero.go"
-  position {
-    x: -610.0458
-    y: 691.395
-    z: 5.0362877E-15
   }
   rotation {
     x: 0.0
@@ -951,26 +296,6 @@ instances {
   }
 }
 instances {
-  id: "potion"
-  prototype: "/pck/building_blocks/gameobjects/pickups/potion.go"
-  position {
-    x: 6405.6826
-    y: 1094.6047
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "speech_controller"
   prototype: "/pck/building_blocks/gameobjects/controllers/speech_controller.go"
   position {
@@ -991,139 +316,271 @@ instances {
   }
 }
 instances {
-  id: "spikes"
-  prototype: "/pck/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 5569.0703
-    y: 790.056
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "spikes1"
-  prototype: "/pck/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 5940.7236
-    y: 788.2431
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "spikes2"
-  prototype: "/pck/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 8149.6104
-    y: 789.62787
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "spikes3"
-  prototype: "/pck/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 9258.795
-    y: 795.64514
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "spikes4"
-  prototype: "/pck/building_blocks/gameobjects/obstacles/spikes.go"
-  position {
-    x: 10363.968
-    y: 787.62213
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "win"
-  prototype: "/pck/building_blocks/gameobjects/triggers/win.go"
-  position {
-    x: 11937.109
-    y: 914.7613
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "enabled"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "win_screen"
   prototype: "/pck/building_blocks/gameobjects/gui_gameobjects/win_screen.go"
   position {
     x: 0.0
     y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "hero"
+  prototype: "/custom/hero.go"
+  position {
+    x: -1806.0
+    y: 1301.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform2"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -2136.0
+    y: 987.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform1"
+  prototype: "/custom/Platform/platform1.go"
+  position {
+    x: -1797.0
+    y: 1196.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -2468.0
+    y: 763.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform3"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -2807.0
+    y: 590.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform4"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -3107.0
+    y: 405.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform5"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -3503.0
+    y: 136.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform6"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -2928.0
+    y: -11.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform7"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -2302.0
+    y: 98.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform8"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -1771.0
+    y: 245.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform9"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -1260.0
+    y: 85.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform10"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -799.0
+    y: 226.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform11"
+  prototype: "/custom/Platform/platform2.go"
+  position {
+    x: -339.0
+    y: 341.0
     z: 0.0
   }
   rotation {
@@ -1188,6 +645,61 @@ embedded_instances {
     x: 0.0
     y: 118.52062
     z: 5.0362877E-15
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "background1"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/pck/framework/scripts/background.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/custom/assets/Backgrounds.atlas\\\"\\n"
+  "default_animation: \\\"WinterVillage\\\"\\n"
+  "material: \\\"/pck/framework/materials/background.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 639.0
+    y: 2302.0
+    z: 0.0
   }
   rotation {
     x: 0.0
