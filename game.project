@@ -4,7 +4,7 @@ version = 0.1
 
 [bootstrap]
 main_collection = /main/main.collectionc
-render = /platformer_creation_kit/framework/renderer/platformer.renderc
+render = /pck/framework/renderer/platformer.renderc
 
 [input]
 game_binding = /input/game.input_bindingc
@@ -27,7 +27,7 @@ shared_state = 1
 [android]
 package = com.defold.platformercreationkit
 app_icon_36x36 = 
-app_icon_192x192 = /platformer_creation_kit/framework/sprites/hero.png
+app_icon_192x192 = /pck/framework/sprites/hero.png
 version_code = 1
 
 [sound]
