@@ -1,0 +1,339 @@
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 4.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 5.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 6.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 7.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/arm r 8.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/Arrow.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 4.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 5.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 6.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 7.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Body/body 8.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/Bow.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/brow 2 l.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/brow 2 r.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/brows 1 l.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/brows 1 r.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/effect.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/effect 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/eyes 1 r.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/eyes 2 r.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/eyes 2 r-1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/eyes closed l.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/eyes closed r.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/eyes1 l.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 1 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 1 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 10 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 10 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 10 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 11 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 11 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 11 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 2 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 2 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 2 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 3 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 3 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 3 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 4 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 4 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 4 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 5 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 5 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 5 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 6 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 6 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 6 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 7 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 7 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 7 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 8 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 8 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 8 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 9 A.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 9 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 9 C.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hats/Hat 1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hats/Hat 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hats/Hat 3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hats/Hat 4.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hats/Hat 5.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Head/head 0.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Head/head 1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Head/head 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Head/head 3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Head/head 4.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Head/head 5.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Legs/leg l.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Legs/leg r.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/Magic.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/mouth 1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/mouth 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Face/mouth 3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/staff 1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/staff 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/sword 1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Weapons/sword 2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/pck/framework/Characters/_ Defold Character Animation Assets/Hair/hair 1 B.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+margin: 4
+extrude_borders: 0
+inner_padding: 0
