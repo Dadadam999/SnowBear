@@ -282,26 +282,6 @@ instances {
   }
 }
 instances {
-  id: "black_wizard"
-  prototype: "/levels/lvl3/black_wizard.go"
-  position {
-    x: 24506.2
-    y: 354.45697
-    z: -0.6
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "box"
   prototype: "/pck/building_blocks/gameobjects/obstacles/box.go"
   position {
@@ -574,26 +554,6 @@ instances {
       value: "true"
       type: PROPERTY_TYPE_BOOLEAN
     }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "hero"
-  prototype: "/levels/lvl4/lvl4_hero.go"
-  position {
-    x: -379.27893
-    y: 343.83548
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
   }
   scale3 {
     x: 1.0
@@ -996,6 +956,26 @@ instances {
     x: 231.33769
     y: 341.427
     z: -0.6
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "hero"
+  prototype: "/custom/hero.go"
+  position {
+    x: -1806.0
+    y: 1301.0
+    z: 0.0
   }
   rotation {
     x: 0.0

@@ -1,89 +1,5 @@
 name: "default"
 instances {
-  id: "action_open_door"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 3479.4316
-    y: 1810.5917
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "door"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_open_door1"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_open_door.go"
-  position {
-    x: 3945.4055
-    y: 1862.8129
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "object_to_open"
-      value: "chest"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_say_speech"
-  prototype: "/pck/building_blocks/gameobjects/actions/action_say_speech.go"
-  position {
-    x: 3042.5393
-    y: 2163.5488
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "speech_index"
-      value: "37.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "action_toggle_trigger"
   prototype: "/pck/building_blocks/gameobjects/actions/action_toggle_trigger.go"
   position {
@@ -117,67 +33,6 @@ instances {
   }
 }
 instances {
-  id: "action_trigger"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 3311.5618
-    y: 1724.5045
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_open_door"
-      type: PROPERTY_TYPE_URL
-    }
-    properties {
-      id: "destroy_after_trigger"
-      value: "false"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger1"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 3300.8008
-    y: 1733.1132
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_say_speech"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "action_trigger2"
   prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
   position {
@@ -198,54 +53,6 @@ instances {
       value: "action_toggle_trigger"
       type: PROPERTY_TYPE_URL
     }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "action_trigger3"
-  prototype: "/pck/building_blocks/gameobjects/triggers/action_trigger.go"
-  position {
-    x: 4009.6777
-    y: 1694.0981
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "action_url"
-      value: "action_open_door1"
-      type: PROPERTY_TYPE_URL
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "background"
-  prototype: "/pck/building_blocks/gameobjects/backgrounds/background.go"
-  position {
-    x: 640.0
-    y: 2299.5674
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
   }
   scale3 {
     x: 1.0
@@ -312,99 +119,11 @@ instances {
   }
 }
 instances {
-  id: "chest"
-  prototype: "/pck/building_blocks/gameobjects/pickups/chest.go"
-  position {
-    x: 4071.9417
-    y: 1599.6982
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "coins_contained"
-      value: "50.0"
-      type: PROPERTY_TYPE_NUMBER
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: -777.6937
-    y: 767.83276
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin1"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 37.37199
-    y: 1018.2124
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "coin2"
   prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
   position {
     x: 1204.0347
     y: 693.2516
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "coin3"
-  prototype: "/pck/building_blocks/gameobjects/pickups/coin.go"
-  position {
-    x: 2370.6973
-    y: 1870.5687
     z: 5.0362877E-15
   }
   rotation {
@@ -426,54 +145,6 @@ instances {
     x: 0.0
     y: 0.0
     z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "door"
-  prototype: "/pck/building_blocks/gameobjects/doors/door.go"
-  position {
-    x: 3504.5852
-    y: 1594.5604
-    z: 5.0362877E-15
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  component_properties {
-    id: "script"
-    properties {
-      id: "is_locked"
-      value: "true"
-      type: PROPERTY_TYPE_BOOLEAN
-    }
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
-  id: "hero"
-  prototype: "/levels/lvl2/lvl2_hero.go"
-  position {
-    x: -1306.9023
-    y: 586.4467
-    z: 5.0362877E-15
   }
   rotation {
     x: 0.0
@@ -596,12 +267,12 @@ instances {
   }
 }
 instances {
-  id: "win"
-  prototype: "/pck/building_blocks/gameobjects/triggers/win.go"
+  id: "win_screen"
+  prototype: "/pck/building_blocks/gameobjects/gui_gameobjects/win_screen.go"
   position {
-    x: 4421.422
-    y: 1712.1747
-    z: 5.0362877E-15
+    x: 0.0
+    y: 0.0
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -616,11 +287,11 @@ instances {
   }
 }
 instances {
-  id: "win_screen"
-  prototype: "/pck/building_blocks/gameobjects/gui_gameobjects/win_screen.go"
+  id: "hero"
+  prototype: "/custom/hero.go"
   position {
-    x: 0.0
-    y: 0.0
+    x: -1741.0
+    y: 1276.0
     z: 0.0
   }
   rotation {
@@ -628,6 +299,74 @@ instances {
     y: 0.0
     z: 0.0
     w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform1"
+  prototype: "/custom/Platform/platform1.go"
+  position {
+    x: -1799.0
+    y: 1222.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "platform"
+  prototype: "/custom/Platform/platform1.go"
+  position {
+    x: -1357.0
+    y: 1225.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "action_trigger_nextlvl"
+  prototype: "/custom/triggers/action_trigger_nextlvl.go"
+  position {
+    x: -1278.0
+    y: 1400.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "trigger_nextlvl"
+    properties {
+      id: "proxy_index"
+      value: "4.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
   }
   scale3 {
     x: 1.0
@@ -685,6 +424,61 @@ embedded_instances {
     x: 0.0
     y: 118.52062
     z: 5.0362877E-15
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "background"
+  data: "components {\n"
+  "  id: \"script\"\n"
+  "  component: \"/pck/framework/scripts/background.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/custom/assets/Backgrounds.atlas\\\"\\n"
+  "default_animation: \\\"WinterVillage\\\"\\n"
+  "material: \\\"/pck/framework/materials/background.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 639.0
+    y: 2302.0
+    z: 0.0
   }
   rotation {
     x: 0.0
